@@ -114,8 +114,6 @@ Matrix* create_matrix_from_file(FILE* file)
         }
         fclose(file);
         get_l_norm(matrix, row, col);
-        printf("\n%i^^^\n", get_rows(matrix));
-        printf("\n%i^^^\n", get_cols(matrix));
        return matrix;
     }
 
